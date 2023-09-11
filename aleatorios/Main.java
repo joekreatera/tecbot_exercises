@@ -1,5 +1,14 @@
 class Main {
 
+
+  public static int obtenerAleatorioInvertido(int a, int b){
+    int aleatorioEntero = 0;
+    a = -a;
+    b = -b;
+    aleatorioEntero = (int)(Math.random()*(b-a)+a);
+    return aleatorioEntero;
+  }
+  
   public static int obtenerAleatorio(int a , int b){
     int aleatorioEntero = 0;
     aleatorioEntero = (int)(Math.random()*(b-a)+a);
